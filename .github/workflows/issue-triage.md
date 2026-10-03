@@ -18,7 +18,7 @@ user-rate-limit:
 
 concurrency:
   group: issue-triage-${{ github.event.issue.number }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: read
